@@ -1,3 +1,3 @@
 # IRTM
-## pa1:preprocessing
-## pa2:tf-idf,cosine simularity
+## pa1: Preprocessing
+## pa2: TF-IDF & Cosine Simularity
