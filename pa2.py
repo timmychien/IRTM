@@ -125,7 +125,7 @@ for i in range(len(tfidf1)):
 tfidf1_output.close()
 
 # tfidf of all documents
-'''
+
 for idx in range(len(documents)):
     tfidf_doc=tfidf(i)
     tfidf_doc=list(tfidf_doc.items())
@@ -134,7 +134,7 @@ for idx in range(len(documents)):
     for i in range(len(tfidf_doc)):
         tfidf_output.write(f'{tfidf_doc[i][0]}\t{tfidf_doc[i][1]}\n'.encode())
     tfidf_output.close()
-'''
+
 #3.calculate cosine simularity
 cosine1_2=cosine(1,2)
 print('cosine similaritiy of Doc1 and Doc2:',cosine1_2)
